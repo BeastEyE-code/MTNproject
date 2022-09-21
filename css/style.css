@@ -200,7 +200,6 @@ select {
     height: 7vh;
     padding: 0.5rem;
     margin: 0.5rem;
-    border: 1px solid black;
     outline: none;
     cursor: pointer;
     border: none;
@@ -209,22 +208,13 @@ select {
 
 .btn2:hover {
     border: none;
-    transform: scale (1.1);
-}
-
-.btn2 a {
-    text-decoration: none;
-    text-transform: capitalize;
+    transform: scale(1.1);
 }
 
 .controls {
     display: flex;
     width: 100%;
     justify-content: end;
-}
-
-.marginRight {
-    margin-right: 1rem;
 }
 
 .controls a {
