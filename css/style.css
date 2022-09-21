@@ -117,12 +117,10 @@
 .btn:hover {
     border: none;
     background: goldenrod;
-    transform: scale (1.1);
 }
 
 .btn a {
     text-decoration: none;
-    color: black;
     text-transform: capitalize;
 }
 
@@ -130,22 +128,10 @@
 /* sign Up*/
 
 
-/* The Container */
-
-.mainContainer2 {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    justify-content: space-between;
-    background-color: rgb(221, 209, 209);
-}
-
-
 /* Forms container*/
 
 .forms {
     display: flex;
-    flex: 0.5;
     height: 40vh;
     flex-direction: column;
     margin-right: 35rem;
@@ -166,7 +152,7 @@
 
 .inputContainer {
     display: flex;
-    flex: 0.7;
+    width: 35rem;
     justify-content: center;
     margin-top: 0.5rem;
     padding: 4rem;
@@ -188,10 +174,6 @@
     margin: 1rem;
     border: none;
     background-color: rgb(206, 199, 199);
-}
-
-.label {
-    margin-bottom: 1rem;
 }
 
 .subtext {
